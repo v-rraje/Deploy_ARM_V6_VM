@@ -1,0 +1,87 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "azfjemiis03"
+    },
+    "localAdminUserName": {
+      "value": "azfjemiis03"
+    },
+    "localAdminPassword": {
+      "value": "May@2016"
+    },
+    "domainJoinUserName": {
+      "value": "redmond\\jem-dev"
+    },
+    "domainJoinPassword": {
+      "value": "May@2016"
+    },
+    "SQLAdmins": {
+      "value": "redmond\\jeminfy"
+    },
+    "localAdmins": {
+      "value": "redmond\\jeminfy"
+    },
+    "appID": {
+      "value": "ICTO-3924"
+    },
+    "orgID": {
+      "value": "500368"
+    },
+    "domainName": {
+      "value": "redmond.corp.microsoft.com"
+    },
+    "env": {
+      "value": "dev"
+    },
+    "imagePublisher": {
+      "value": "MicrosoftWindowsServer"
+    },
+    "imageOffer": {
+      "value": "WindowsServer"
+    },
+    "sku": {
+      "value": "2012-R2-Datacenter"
+    },
+    "snoozeDate": {
+      "value": "1/1/15"
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "userImageStorageAccountName": {
+      "value": "azfjemstr01"
+    },
+    "virtualNetwork": {
+      "value": "MSFTRECORD-CORP-WUS-1"
+    },
+    "vnetResourceGroup": {
+      "value": "ERNetwork"
+    },
+    "subnetName": {
+      "value": "Subnet-1"
+    },
+    "vmSize": {
+      "value": "Standard_DS2"
+    },
+    "Diskconfig": {
+      "value": "IIS"
+    },
+    "DiskSize": {
+      "value": 200
+    },
+    "DiskCount": {
+      "value": "4"
+    },
+    "ouPath": {
+      "value": "OU=ITManaged,OU=ITServices,DC=redmond,DC=corp,DC=microsoft,DC=com"
+    },
+    "PullServerRegistrationKey": {
+      "value": "DtOvyfhxbRkS+kXw9PerJP4RQx48HxCcvKruEyd/vfz2gKplxr+UtJDpsdBjltyDhhMa5As4OGKFb3M+p5vlbQ=="
+    },
+    "PullServerRegistrationURI": {
+      "value": "https://eus2-agentservice-prod-1.azure-automation.net/accounts/d9886cc8-9990-4461-972b-155d710f1ace"
+    }
+  }
+}
