@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmName": {
-      "value": "azfjemsql04"
+      "value": "azpjemsql03"
     },
     "localAdminUserName": {
-      "value": "azfjemsql04"
+      "value": "azpjemsql03"
     },
     "localAdminPassword": {
       "value": "May@2016"
