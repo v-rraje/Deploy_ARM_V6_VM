@@ -3,10 +3,10 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "vmName": {
-      "value": "azfjemiis03"
+      "value": "azpjemiis03"
     },
     "localAdminUserName": {
-      "value": "azfjemiis03"
+      "value": "azpjemiis03"
     },
     "localAdminPassword": {
       "value": "May@2016"
